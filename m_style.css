@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+header > nav{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav > .logo{
+    display: inline-block;
+    
+}
+header > nav > .menu{
+    display: flex;
+    top: 30px;
+    left: 346px;
+    width: 26px;
+    height: 8px;
+    position: relative;
+    padding: 0;
+    box-shadow: none;
+}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #1D086A;padding: 1.3rem 2.3rem;border-bottom: 1px solid #6349BE;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .top01{height: 51.7rem;text-align: center;left:100px;}
+section > .top > img{padding-top: 10.5rem;}
+
+section > .profile{background-image: url('../img/m_i_05_pro_back.png');height: 157.7rem;text-align: center;}
+section > .profile > .pf_01{padding-top: 5.0rem; margin-left:5.0rem;}
+section > .profile > .pf_02{margin-top: 3.7rem;}
+
+
+footer{background-color: #969696;height: 16.1rem;text-align: center;}
+footer > img{padding-top: 2.2rem;}
+
+/*--서브01--*/
+section > .sub_01_top{background-image: url('../img/m_s01_02.png');height: 18.0rem;text-align: center;}
+section > .sub_01_top > img{padding-top: 5.0rem;}
+section > .sub_01_cont{background-color: #F63596;height: 76.2rem;text-align: center;}
+section > .sub_01_cont > img{padding-top: 2.5rem;}
+/*--서브02--*/
+section > .sub_02_top{background-image: url('../img/m_s02_02.png');height: 18.0rem;text-align: center;}
+section > .sub_02_top > img{padding-top: 5.0rem;}
+section > .sub_02_cont{background-color: #D8D8D8;height: 86.9rem;text-align: center;}
+section > .sub_02_cont > img{padding-top: 2.5rem;}
+/*--서브03--*/
+section > .sub_03_top{background-image: url('../img/m_s03_02.png');height: 18.0rem;text-align: center;}
+section > .sub_03_top > img{padding-top: 5.0rem;}
+section > .sub_03_cont{background-image: url('../img/m_s03_04.png');height: 83.1rem;text-align: center;}
+section > .sub_03_cont > img{padding-top: 2.5rem;}
+/*--서브04--*/
+section > .sub_04_top{background-image: url('../img/m_s04_02.png');height: 18.0rem;text-align: center;}
+section > .sub_04_top > img{padding-top: 5.0rem;}
+section > .sub_04_cont{background-color: #1F3545;height: 140.3rem;text-align: center;}
+section > .sub_04_cont > img{padding-top: 2.5rem;}
+/*--서브05--*/
+section > .sub_05_top{background-image: url('../img/m_s05_02.png');height: 18.0rem;text-align: center;}
+section > .sub_05_top > img{padding-top: 5.0rem;}
+section > .sub_05_cont{background-color: #EBEEF1;height: 80.1rem;text-align: center;}
+section > .sub_05_cont > img{padding-top: 2.5rem;}
